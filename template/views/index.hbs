@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="shortcut icon" href="/img/weather.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/style.css">
 
     <title>{{document}}</title>
 </head>
+
 <body>
     <div class="main-content">
         {{>header}}
-        <p>Use this site to get your weather!</p>
+        <p>Utilisez ce site pour votre météo!</p>
         <form>
             <input placeholder="Location">
-            <button>Search</button>
+            <button>Valider</button>
         </form>
 
         <p id="message-1"></p>
         <p id="message-2"></p>
+        <img src="" alt="" id="icon">
     </div>
 
     {{>footer}}
-<script src="/js/app.js"></script>
+    <script src="/js/app.js"></script>
 </body>
+
 </html>
